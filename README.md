@@ -5,7 +5,7 @@ Power: control browser queryString through common Model methods: set, get and 'c
 ## Requirements:
 - Backbone as a global variable
 - Backbone-history (https://github.com/involve-it/backbone-history) - to be able to get previous route.
-- Ramda (http://ramdajs.com/)
+- Ramda (http://ramdajs.com/) - used only few times, planning to remove ..
 
 ## Usage:
 - Constructor Params:
