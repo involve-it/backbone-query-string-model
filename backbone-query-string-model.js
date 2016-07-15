@@ -1,6 +1,8 @@
 import Backbone from 'backbone'; // just to show dependency #1, can be global
 import BackboneHistory from 'backbone.history'; // just to show dependency #2, can be global
 import R from 'rambda'; // same. It can be removed or replaced with Underscore easily
+import $ from 'jquery';
+import _ from 'underscore';
 
 var viewPattern = /__/;
 
