@@ -30,6 +30,7 @@ this.listenTo(queryStringModel, 'change:tab1', (m) => {
 });
 ```
 
-## Small Note:
-I put this code very quickly, without fully testing outside of my projects, so can be few errors/quesions. 
+## Small Notes:
+- I put this code very quickly, without fully testing outside of my projects, so can be few errors/quesions. 
 Please let me know and I will definetely work on it when I see the project is used! 
+- Also, I have coded QueryStringCidModel - when this model is used querystring parameter will get prefix (cid of the qsModel), so that multiple models can use same querystring names. Can be useful when few instances of the same control (like chart or table) are on the same page. Originally was developed to work with Backgrid. I can share it by request, please let me know! :)
